@@ -1,43 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Login and Registrartion form</title>
+<title>INDEX</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div class="hero">
-        <div class="form-box">
-            <div class="button-box">
-                <div id="btn"></div>
-            <button type="button" class="toggle-btn" onclick="Login()">Login</button>
-            <button type="button" class="toggle-btn" onclick="Register()">Register</button>
-        </div>
-    </div>
-    <div class="social-icons">
-        <img src="fb.png">
-        <img src="te.png">
-        <img src="gp.png">
-    </div>
-    <form id="login" class="input-group">
-        <input type="text" class="input-field" placeholder="User Id" required>
-        <input type="Email" class="input-field" placeholder="Email Id" required>
-        <input type="text" class="input-field" placeholder="Enter password" required>
-        <input type="checkbox" class="checkbox"><span>Remember Password</span>
-        <button type="Submit" class="Subit-btn">Login</button>
-    </form>
-    <form id="Register" class="input-group">
-        <input type="text" class="input-field" placeholder="User Id" required>
-        <input type="Email" class="input-field" placeholder="Email Id" required>
-        <input type="text" class="input-field" placeholder="Enter Password" required>
-        <input type="checkbox" class="checkbox"><span> I agree to the terms & conditions </span>
-        <button type="Submit" class="Subit-btn">Register</button>
-    </form>
-   </div>
+<div class="header">
+<h1>5G network</h1>
 </div>
-       <script>
-       var x = document
-       </script>
+<div class="navbar">
+  <a href="Home.html">HOME</a>
+  <a href="Register.html">REGISTER</a>
+  <a href="Login.html">LOGIN</a>
+  <a href="services.html">SERVICES</a>
+  <a href="Contact.html">CONTACT US</a>
+</div>
+<hr>
+<br>
+<marquee>WELCOME TO 5G TECHNOLOGY</marquee>
+<br><br>
+<form action="action_page.php" style="border:1px solid #ccc">
+    <h1>Sign Up</h1>
+  <div class="container">
+    <p>Please fill in this form to create an account.</p>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
 
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+  </div>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+</form>
+<br>
+<hr>
+<footer style="text-align: center;">
+Copyrights@2020 by Jntuh All rights reserved.
+</footer>
 </body>
-
-
 </html>
